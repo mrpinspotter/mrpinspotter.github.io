@@ -1,0 +1,5 @@
+<ul id="nav">
+	{% for page in site.nav %}
+		<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+	{% endfor %}
+</ul>
