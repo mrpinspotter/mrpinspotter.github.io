@@ -3,6 +3,8 @@ email: steve@mrpinspotter.com
 url: "http://www.mrpinspotter.com" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
 
+exclude: [template.html]
+
 nav:
   -
     title: Home
