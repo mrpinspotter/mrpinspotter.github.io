@@ -1,22 +1,23 @@
+---
+---
 <!DOCTYPE html>
 <html>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta name="description" content="Providing experienced bowling pinspotter repair to the Spotsylvania, VA  22553 area since 1989." />
 	<meta name="keywords" content="bowling repair, bowling, repair, spotsylvania, VA, virginia, 22553, steve ames, pinspotter, amf, 090-005-700, 090-005-705, 090-005-715, 620-905-700, 620-905-764, 620-905-769, 090-008-800, 620-908-800, 620-908-864, 620-908-869" />
-	<title>Precision Pinspotter Service, Inc. | About Us</title>
+	<title>{{ site.title }} | About Us</title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
 <div id="content">
 	<div id="header">
-	<h1>Precision Pinspotter Service, Inc.</h1>
+	<h1>{{ site.title }}</h1>
 	<ul id="nav">
-		<li><a href="index.html">Home</a></li>
-		<li><a href="aboutus.html">About Us</a></li>
-		<li><a href="videos.html">Videos</a></li>
-		<li><a href="contactus.html">Contact Us</a></li>
+		{% for page in site.nav %}
+			<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+		{% endfor %}
 	</ul>
 	<hr>
 	</div>

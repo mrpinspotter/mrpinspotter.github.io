@@ -2,3 +2,17 @@ title: Precision Pinspotter Service, Inc.
 email: steve@mrpinspotter.com
 url: "http://www.mrpinspotter.com" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
+
+nav:
+  -
+    title: Home
+    url: index.html
+  -
+    title: About Us
+    url: aboutus.html
+  -
+    title: Videos
+    url: videos.html
+  -
+    title: Contact Us
+    url: contactus.html
