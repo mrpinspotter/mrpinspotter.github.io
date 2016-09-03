@@ -1,5 +1,9 @@
 title: Precision Pinspotter Service, Inc.
 email: steve@mrpinspotter.com
+phone: (540) 582-9418
+address: >
+  PO Box 727<br />
+  Spotsylvania, VA 22553
 url: "http://www.mrpinspotter.com" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
 
